@@ -7,6 +7,7 @@ Rakefile
 README
 TODO.txt
 lib/metric_fu.rb
+lib/metric_fu/churn.rb
 lib/metric_fu/flog_reporter.rb
 lib/metric_fu/md5_tracker.rb
 lib/metric_fu/flog_reporter/base.rb
