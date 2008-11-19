@@ -12,7 +12,7 @@ Then in your Rakefile:
 require 'metric_fu'
 
 If you like to vendor gems, you can unpack metric_fu into vendor/gems and require it like so:
-require 'vendor/gems/nielsm-metric_fu-0.8.0/lib/metric_fu'
+require 'vendor/gems/nielsm-metric_fu-0.8.1/lib/metric_fu'
 
 then you don't have to install it on every box you run it on.
 
