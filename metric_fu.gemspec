@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version = "0.8.1"
   s.summary = "Generates project metrics using Flog, RCov, Saikuro and more"
   s.email = "jake.scruggs@gmail.com"
-  s.homepage = "http://metric-fu.rubyforge.org/"
+  s.homepage = "http://github-com/nielsm/metric-fu/"
   s.description = "Gives you a fist full of code metrics"
   s.has_rdoc = true
   s.authors = ["Jake Scruggs", "Sean Soper"]
