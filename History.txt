@@ -1,3 +1,6 @@
+=== MetricFu 0.8.1 / 2008-11-19
+Updated coverage rake task to specify test in the libs param.  This fixes problems in tests generated under Rails 2.1.
+
 === MetricFu 0.8.0 / 2008-10-06
 
 * Source Control Churn now supports git (thanks to Erik St Martin)
