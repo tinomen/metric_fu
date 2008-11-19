@@ -1,6 +1,6 @@
 History.txt
 Manifest.txt
-metric_fu-0.7.gem
+metric_fu-0.8.1.gem
 metric_fu.gemspec
 MIT-LICENSE
 Rakefile
@@ -24,5 +24,4 @@ lib/tasks/metric_fu.rake
 lib/tasks/metric_fu.rb
 lib/tasks/saikuro.rake
 lib/tasks/stats.rake
-test/test_helper.rb
-test/test_md5_tracker.rb
+spec/md5_tracker_spec.rb
