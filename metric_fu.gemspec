@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.test_files = ["spec/md5_tracker_spec.rb"]
   s.rdoc_options = ["--main", "README"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README"]
-  s.add_dependency("flog", ["> 1.2.0"])
+  s.add_dependency("flog", [">= 1.2.0"])
   s.add_dependency("rcov", ["> 0.0.0"])
 end
