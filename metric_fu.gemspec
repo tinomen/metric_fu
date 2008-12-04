@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version = "0.8.1"
   s.summary = "Generates project metrics using Flog, RCov, Saikuro and more"
   s.email = "jake.scruggs@gmail.com"
-  s.homepage = "http://github-com/nielsm/metric-fu/"
+  s.homepage = "http://github-com/tinomen/metric-fu/"
   s.description = "Gives you a fist full of code metrics"
   s.has_rdoc = true
   s.authors = ["Jake Scruggs", "Sean Soper"]
@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.test_files = ["spec/md5_tracker_spec.rb"]
   s.rdoc_options = ["--main", "README"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README"]
-  s.add_dependency("flog", ["> 0.0.0"])
+  s.add_dependency("flog", ["> 1.2.0"])
   s.add_dependency("rcov", ["> 0.0.0"])
 end
