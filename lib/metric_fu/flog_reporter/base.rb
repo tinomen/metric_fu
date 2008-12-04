@@ -32,7 +32,7 @@ module MetricFu::FlogReporter
       end
 
       def parse(text)
-        score = text[/score = (\d+\.\d+)/, 1]
+        score = text[/Flog = (\d+\.\d+)/, 1]
         return nil unless score
         page = Page.new(score)
 
@@ -50,7 +50,7 @@ module MetricFu::FlogReporter
              page.scanned_methods.last.operators << Operator.new(score, operator)
           end
         end
-      
+        raise InvalidFlog if page.scanned_methods.empty?
         page
       end
     end
