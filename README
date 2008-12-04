@@ -1,12 +1,12 @@
 Version 0.8.1
-http://github.com/nielsm/metric_fu
+http://github.com/tinomen/metric_fu
 
 Metric_fu began its life as a plugin for Rails that generated code metrics reports.  As of version 0.7.0, metric_fu is a gem owing to the excellent work done by Sean Soper.  
 
 Metric_fu is a set of rake tasks that make it easy to generate metrics reports.  It uses Saikuro, Flog, Rcov, and Rails' built-in stats task to create a series of reports.  It's designed to integrate easily with CruiseControl.rb by placing files in the Custom Build Artifacts folder.
 
 ****Installation****
-sudo gem install nielsm-metric_fu -s http://gems.github.com
+sudo gem install tinomen-metric_fu -s http://gems.github.com
 
 Then in your Rakefile:
 require 'metric_fu'
